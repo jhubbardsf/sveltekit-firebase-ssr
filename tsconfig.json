@@ -27,7 +27,7 @@
 			"$lib/*": ["src/lib/*"]
 		},
 		"allowSyntheticDefaultImports": true,
-		"strict": true
+		"strict": false
 	},
 	"include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte"]
 }
