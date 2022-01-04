@@ -14,7 +14,9 @@ function initializeFirebase() {
 }
 
 export async function decodeToken(token: string): Promise<DecodedIdToken | null> {
-	if (!token || token === 'null' || token === 'undefined') return null;
+	if (!token || token === 'null' || token === 'undefined') {
+		return null;
+	}
 	try {
 		initializeFirebase();
 		return await admin.auth().verifyIdToken(token);
