@@ -15,6 +15,7 @@
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/adapter-vercel": "1.0.0-next.0",
 		"@sveltejs/kit": "next",
+		"@sveltejs/app-utils": "1.0.0-next.0",
 		"@types/cookie": "^0.4.1",
 		"@typescript-eslint/eslint-plugin": "^5.8.1",
 		"@typescript-eslint/parser": "^5.8.1",
@@ -36,7 +37,6 @@
 		"@firebase/app-types": "^0.7.0",
 		"@fontsource/fira-mono": "^4.5.0",
 		"cookie": "^0.4.1",
-		"firebase": "^9.6.1",
-		"renderer": "link:@sveltejs/app-utils/renderer"
+		"firebase": "^9.6.1"
 	}
 }
